@@ -8,24 +8,25 @@
     android:orientation="vertical">
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_marginTop="200dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:checkedButton="@id/radioButtonHola"
+        >
 
     <RadioButton
         android:id="@+id/radioButtonHola"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
 
         android:hint="@string/hola"
         android:textColorHint="@color/black"
         />
 
     <RadioButton
-        android:id="@+id/radioButtonAdeu"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +38,7 @@
     </RadioGroup>
 
     <TextView
+        android:id="@+id/ageNumber"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +50,7 @@
         />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/ageSeekBar"
         android:layout_marginRight="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="30dp"
