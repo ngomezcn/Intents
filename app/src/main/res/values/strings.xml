@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="go_next">Go Next!</string>
+    <string name="put_your_name_here">Put your name here</string>
+    <string name="hola">Hola</string>
+    <string name="adeu">Adeu</string>
+    <string name="share">Share</string>
+    <string name="_0">0</string>
+</resources>

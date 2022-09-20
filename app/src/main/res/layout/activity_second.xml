@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+    <RadioButton
+        android:id="@+id/radioButtonHola"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+
+        android:hint="@string/hola"
+        android:textColorHint="@color/black"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButtonAdeu"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/adeu"
+        android:textColorHint="@color/black"
+        />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:text="@string/_0"
+        android:textColor="@color/orange"
+        android:textSize="70dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:min="0"
+        android:max="90"
+        />
+
+    <Button
+        android:id="@+id/goNextButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+
+        android:hint="@string/go_next"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/orange"
+        />
+
+</LinearLayout>
