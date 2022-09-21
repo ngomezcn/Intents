@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val intent = Intent(this, SecondActivity::class.java)
 
         binding.goNextButton.setOnClickListener {
 
             val personName = binding.editText.text.toString();
 
-            val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("personName", personName)
 
             if(personName.isNotEmpty()) {

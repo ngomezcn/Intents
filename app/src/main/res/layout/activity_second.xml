@@ -8,32 +8,31 @@
     android:orientation="vertical">
 
     <RadioGroup
-        android:id="@+id/radioGroup"
         android:layout_marginTop="200dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:checkedButton="@id/radioButtonHola"
-        >
+        android:layout_gravity="center_vertical">
 
-    <RadioButton
-        android:id="@+id/radioButtonHola"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        <RadioButton
+            android:id="@+id/radioButtonHola"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-        android:hint="@string/hola"
-        android:textColorHint="@color/black"
-        />
+            android:hint="@string/hola"
+            android:textColorHint="@color/black"
+            android:checked="true"
+            />
 
-    <RadioButton
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        <RadioButton
+            android:id="@+id/radioButtonAdeu"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-        android:hint="@string/adeu"
-        android:textColorHint="@color/black"
-        />
+            android:hint="@string/adeu"
+            android:textColorHint="@color/black"
+            />
 
     </RadioGroup>
 
